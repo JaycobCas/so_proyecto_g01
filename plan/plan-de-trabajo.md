@@ -12,7 +12,7 @@ Define las responsabilidades de cada integrante del Grupo 01 (Sede Yumbo). Sirve
 | Nicolás Mosos | Máquinas virtuales, red, seguridad y usuarios | Instala `g01-grafica` (Kubuntu) y `g01-consola` (Debian) con particionado manual, configura red (NAT + Solo-anfitrión), SSH, instantáneas, usuarios, grupo `proyecto`, permisos `/srv/proyecto`, `sudo` y firewall | `sprint-1.md`, `sprint-2-seguridad.md`, carpeta `capturas-vm/` |
 | Alejandro Minotta| Scripts, procesos, Docker y Kubernetes | Desarrolla el script gráfico (`.desktop`) y el de consola en Bash, gestiona procesos (`zombi.py`), instala Docker Engine, crea el `Dockerfile` (Ubuntu), publica en Docker Hub y despliega en Minikube (Kubernetes) | `scripts/`, `docker/`, `k8s/`, `sprint-2-servicios.md`, `sprint-3.md` |
 
-## Fechas de los sprints (Sede Yumbo)
+## Fechas de los sprints 
 
 | Sprint | Cierre (Yumbo) | Qué entregamos |
 |---|---|---|
