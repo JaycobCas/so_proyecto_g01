@@ -14,7 +14,7 @@ Define las responsabilidades de cada integrante del Grupo 01 (Sede Yumbo). Sirve
 
 ## Fechas de los sprints 
 
-| Sprint | Cierre (Yumbo) | Qué entregamos |
+| Sprint | Cierre | Qué entregamos |
 |---|---|---|
 | 0 · Arranque | viernes 20 de noviembre, 11:55 p. m. | Repositorio público con la carpeta `plan` (`plan-de-trabajo.md` y `ficha-version.md`) |
 | 1 · Montaje | viernes 27 de noviembre, 11:55 p. m. | Dos VMs (`g01-grafica` y `g01-consola`), red, SSH e instantánea `instalacion-limpia` |
