@@ -4,7 +4,7 @@
 | Versión elegida y fecha de lanzamiento | Kubuntu 26.04 LTS - Plasma 6 Fecha de lanzamiento: 23 de Abril, 2026 | https://kubuntu.org/download/ |
 | Hasta cuándo recibe actualizaciones de seguridad | Recibe actualizaciones de seguridad y mantenimiento hasta Abril de 2029 | (https://kubuntu.org/download/) |
 | Requisitos de hardware y si funciona en VirtualBox | Kubuntu en su página oficial no posee un apartado que indique los requerimientos del sistemas. Como es un "sabor de Ubuntu" usaremos los mismos requerimientos del sistema que pide Ubuntu. Ubuntu Desktop 26.04 LTS requires a 2 GHz dual-core processor or better, a minimum of 6 GB RAM and 25 GB of free storage space for a comfortable experience. Kubuntu funciona en VirtualBox| https://documentation.ubuntu.com/release-notes/26.04/#requirements-and-compatibility |
-| ¿El instalador permite particionado manual? | Sí, Kubuntu soporta partición manual | https://kfocus.org/wf/reinstall.html?srsltid=AYCX9vJzVVVO6dTNr5Fwx8omWFDa8oWKW4Lv7Y_F5kepU6uPEbYUoBgd#bkm_part_disks |
+| ¿El instalador permite particionado manual? | Sí, Kubuntu soporta partición manual | [Particion Manual Kubuntu](https://kfocus.org/wf/reinstall.html?srsltid=AYCX9vJzVVVO6dTNr5Fwx8omWFDa8oWKW4Lv7Y_F5kepU6uPEbYUoBgd#bkm_part_disks) |
 | Guía oficial para instalar Docker Engine en esa familia | Docker soporta Ubuntu 26.04, pero aclara que no soporta oficialmente las distribuciones derivadas, como Linux Mint. Kubuntu es un sabor oficial, no una vderivada, así que la guía de Ubuntu tambien aplica aquí. | https://docs.docker.com/engine/install/ubuntu/ |
 | Imagen base del Dockerfile para esa versión | Kubuntu no tiene imagen Docker propia, así que usa Ubuntu. La imagen oficial es ubuntu:26.04. | https://hub.docker.com/_/ubuntu |
 
