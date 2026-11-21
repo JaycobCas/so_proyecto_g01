@@ -24,7 +24,7 @@
 | Pregunta | Respuesta | Enlace |
 |---|---|---|
 | Versión elegida y fecha de lanzamiento | Rocky Linux 10 “Red Quartz”. Salió el 11 de junio de 2025. La documentación oficial ya lista la 10.3 como versión actual. | https://docs.rockylinux.org/releases/ |
-| Hasta cuándo recibe actualizaciones de seguridad | Recibe soporte general con fecha limite del 31 de Mayo | https://docs.rockylinux.org/releases/ |
+| Hasta cuándo recibe actualizaciones de seguridad | Recibe soporte hasta el 31 de Mayo | https://docs.rockylinux.org/releases/ |
 | Requisitos de hardware y si funciona en VirtualBox | CPU 	1 GHz 64-bit (AVX-capable x86_64-v3) or equivalent for ARM/POWER/Z/RISC-V. RAM 	1 GB (2 GB for GUI). Disk Space 	10 GB (20 GB+ recommended; 40 GB+ for GUI). Network 	Ethernet or wireless adapter. Display 	1024×768 capable (only for GUI). Media Access 	USB or DVD-ROM. Firmware 	UEFI/BIOS (UEFI recommended); Secure Boot optional. El OS funciona en VirtualBox  | https://docs.rockylinux.org/10/ja/guides/minimum_hardware_requirements/ |
 | ¿El instalador permite particionado manual? | Sí, con la opción “Custom” del instalador. La guía oficial de Rocky solo muestra el modo automático, así que para lo manual usé la guía de Tecmint, que explica elegir Custom en “Installation Destination” | https://www.tecmint.com/install-rocky-linux/ | 
 | Guía oficial para instalar Docker Engine en esa familia | La guía oficial de Rocky usa el repositorio RHEL de Docker: dnf config-manager --add-repo https://download.docker.com/linux/rhel/docker-ce.repo, y luego instala docker-ce, containerd.io, etc. | https://docs.rockylinux.org/gemstones/containers/docker/ |
