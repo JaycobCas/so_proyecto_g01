@@ -57,6 +57,7 @@ Configuramos dos adaptadores de red en VirtualBox para cada máquina virtual: el
 **Comandos ejecutados:** `date`, `ip a`, `ping -c 4  192.168.56.10`, `ping -c 4  192.168.56.102`
 
 **Captura 6: Salida de `ip a` en `g01-grafica` y `g01-consola` mostrando las direcciones IP de ambas interfaces**
+
 <img width="512" height="288" alt="image" src="https://github.com/user-attachments/assets/3a6e6b11-30ff-4585-a700-9eae40b100c7" />
 
 
