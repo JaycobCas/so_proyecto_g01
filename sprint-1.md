@@ -65,7 +65,34 @@ Configuramos dos adaptadores de red en VirtualBox para cada máquina virtual: el
 
 <img width="512" height="106" alt="image" src="https://github.com/user-attachments/assets/20d87ca4-548f-4ac2-b8e8-3d087bd3b8af" />
 
+
+
+
+---
+
+## 4. SSH (`g01-grafica` → `g01-consola`)
+
+Establecimos conexión remota mediante el protocolo SSH desde la terminal de la máquina virtual gráfica (`g01-grafica`) hacia la máquina virtual de consola (`g01-consola`) utilizando su dirección IP en la red solo-anfitrión.
+
+**Comando ejecutado:** `ssh nicolas@192.168.56.10` 
+
+**Captura 8: Sesión SSH abierta desde `g01-grafica` mostrando el prompt remoto `nicolas@g01-consola` y `date`**
+
 <img width="512" height="265" alt="image" src="https://github.com/user-attachments/assets/ccc319c5-01eb-47ca-b1c1-0168408858c1" />
+
+---
+
+## 5. Instantáneas (`instalacion-limpia`)
+
+Con ambas máquinas virtuales apagadas y la instalación base verificada, tomamos una instantánea llamada `instalacion-limpia` en VirtualBox para cada VM como punto de restauración seguro.
+
+**Captura 9: Pestaña de instantáneas de `g01-grafica` mostrando `instalacion-limpia`**
+<img width="512" height="32" alt="image" src="https://github.com/user-attachments/assets/30975f7f-f950-48ea-937d-0bff6671a430" />
+
+
+**Captura 10: Pestaña de instantáneas de `g01-consola` mostrando `instalacion-limpia`**
+<img width="512" height="38" alt="image" src="https://github.com/user-attachments/assets/5b9b0cb9-3bbe-4e56-9b1c-70034420c18b" />
+
 
 
 
