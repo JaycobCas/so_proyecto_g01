@@ -48,4 +48,21 @@ Instalamos Debian en modo consola (sin entorno gráfico) en VirtualBox con un di
 <img width="512" height="245" alt="image" src="https://github.com/user-attachments/assets/5e330e4a-1867-4697-9800-ef9182ad4c19" />
 <img width="512" height="234" alt="image" src="https://github.com/user-attachments/assets/95c2f300-17ce-465c-b4c5-1575db398565" />
 
+---
+
+## 3. Red (`g01-grafica` y `g01-consola`)
+
+Configuramos dos adaptadores de red en VirtualBox para cada máquina virtual: el adaptador 1 en modo **NAT** (para salida a internet) y el adaptador 2 en **Red solo-anfitrión** (*Host-Only*), permitiendo la comunicación directa entre ambas VMs dentro de la misma subred.
+
+**Comandos ejecutados:** `date`, `ip a`, `ping -c 4  192.168.56.10`, `ping -c 4  192.168.56.102`
+
+**Captura 6: Salida de `ip a` en `g01-grafica` y `g01-consola` mostrando las direcciones IP de ambas interfaces**
+<img width="512" height="288" alt="image" src="https://github.com/user-attachments/assets/3a6e6b11-30ff-4585-a700-9eae40b100c7" />
+
+
+**Captura 7: Prueba de conectividad con `ping` en ambos sentidos (gráfica → consola y consola → gráfica)**
+<img width="512" height="106" alt="image" src="https://github.com/user-attachments/assets/20d87ca4-548f-4ac2-b8e8-3d087bd3b8af" />
+<img width="512" height="265" alt="image" src="https://github.com/user-attachments/assets/ccc319c5-01eb-47ca-b1c1-0168408858c1" />
+
+
 
