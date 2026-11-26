@@ -17,6 +17,7 @@ Instalamos Kubuntu en VirtualBox con particionado manual (`/`, `swap` y `/home`)
 
 
 **Captura 2: Salida de `lsblk`, `df -h` y `cat /etc/fstab` con el prompt `nicolas@g01-grafica` y `date` visible**
+
 <img width="512" height="320" alt="image" src="https://github.com/user-attachments/assets/e90ec29c-391d-4435-a4af-8dcf36531b7c" />
 
 
