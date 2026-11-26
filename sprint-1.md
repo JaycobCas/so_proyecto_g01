@@ -23,3 +23,28 @@ Instalamos Kubuntu en VirtualBox con particionado manual (`/`, `swap` y `/home`)
 **Captura 3: Los dos navegadores y los dos editores abiertos en Kubuntu**
 <img width="512" height="320" alt="image" src="https://github.com/user-attachments/assets/c55443bf-aa6a-458c-85aa-d6befd5b39eb" />
 
+---
+
+## 2. VM de consola (`g01-consola` - Debian)
+
+Instalamos Debian en modo consola (sin entorno gráfico) en VirtualBox con un disco de 25 GB, 2 CPU y particionado manual (`/`, `/var`, `swap` y `/home`).
+
+| Partición | Tamaño | Por qué |
+|---|---|---|
+| `/` | 6.4 GB | Contiene el sistema operativo base Debian sin entorno gráfico y los paquetes esenciales. |
+| `/var` | 12.9 GB | Directorio donde Docker y Minikube almacenarán sus imágenes, contenedores y volúmenes en los siguientes sprints (`/var/lib/docker`). |
+| `swap` | 2.1 GB | Área de intercambio en disco para respaldar la memoria RAM asignada a la máquina virtual. |
+| `/home` | 5.4 GB | Almacena los archivos personales, scripts y configuraciones del usuario principal separados del sistema. |
+
+**Herramientas instaladas:** `make`, `rsync`, `curl`, `git` y `wget`.
+
+**Comandos ejecutados:** `date`, `lsblk`, `df -h`, `cat /etc/fstab`, `make --version`, `rsync --version`, `curl --version`, `git --version`, `wget --version`
+
+**Captura 4: Salida de `lsblk`, `df -h` y `cat /etc/fstab` en `g01-consola`.**
+<img width="512" height="493" alt="image" src="https://github.com/user-attachments/assets/ea80a721-d147-4b70-b374-e48b0af92e7a" />
+
+**Captura 5: Las 5 herramientas instaladas (`make`, `rsync`, `curl`, `git`, `wget`) mostrando su versión**
+<img width="512" height="245" alt="image" src="https://github.com/user-attachments/assets/5e330e4a-1867-4697-9800-ef9182ad4c19" />
+<img width="512" height="234" alt="image" src="https://github.com/user-attachments/assets/95c2f300-17ce-465c-b4c5-1575db398565" />
+
+
