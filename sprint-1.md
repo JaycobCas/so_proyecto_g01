@@ -61,7 +61,9 @@ Configuramos dos adaptadores de red en VirtualBox para cada máquina virtual: el
 
 
 **Captura 7: Prueba de conectividad con `ping` en ambos sentidos (gráfica → consola y consola → gráfica)**
+
 <img width="512" height="106" alt="image" src="https://github.com/user-attachments/assets/20d87ca4-548f-4ac2-b8e8-3d087bd3b8af" />
+
 <img width="512" height="265" alt="image" src="https://github.com/user-attachments/assets/ccc319c5-01eb-47ca-b1c1-0168408858c1" />
 
 
