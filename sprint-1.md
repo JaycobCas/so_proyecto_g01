@@ -94,5 +94,25 @@ Con ambas máquinas virtuales apagadas y la instalación base verificada, tomamo
 <img width="512" height="38" alt="image" src="https://github.com/user-attachments/assets/5b9b0cb9-3bbe-4e56-9b1c-70034420c18b" />
 
 
+---
 
+## Código del sprint
 
+El docente publicó el código de verificación en el campus 48 horas antes del cierre. Lo guardamos en el home del usuario principal de ambas VMs y lo mostramos en el video con `date`.
+
+**Comandos ejecutados:**
+```bash
+echo "YD01-WEWS" > ~/codigo_sprint1.txt
+cat ~/codigo_sprint1.txt
+date
+```
+
+---
+
+## Lo que hizo cada integrante en este sprint
+
+| Integrante | Qué hizo | Commits |
+|---|---|---|
+| Jaycob | Configuró GitHub Pages (`_config.yml`), creó la portada (`index.md`), estructuró la página `sprint-1.md`, integró las capturas y subió el video. | 2 |
+| Nicolás | Instaló `g01-grafica` (Kubuntu) y `g01-consola` (Debian) con particionado manual, configuró red (NAT + Solo-anfitrión), SSH y tomó las instantáneas `instalacion-limpia`. | 2 |
+| Alejandro | Verificó herramientas en consola, completó `plan/ficha-version.md` y participó en la sustentación en video. | 2 |
