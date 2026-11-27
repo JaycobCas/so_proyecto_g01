@@ -116,3 +116,13 @@ date
 | Jaycob | Configuró GitHub Pages (`_config.yml`), creó la portada (`index.md`), estructuró la página `sprint-1.md`, integró las capturas y subió el video. | 2 |
 | Nicolás | Instaló `g01-grafica` (Kubuntu) y `g01-consola` (Debian) con particionado manual, configuró red (NAT + Solo-anfitrión), SSH y tomó las instantáneas `instalacion-limpia`. | 2 |
 | Alejandro | Verificó herramientas en consola, completó `plan/ficha-version.md` y participó en la sustentación en video. | 2 |
+
+<script src="https://jsdelivr.net"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    mediumZoom('img', {
+      margin: 24,
+      background: 'rgba(0, 0, 0, 0.85)'
+    });
+  });
+</script>
