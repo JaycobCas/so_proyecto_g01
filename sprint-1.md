@@ -86,7 +86,7 @@ Con ambas máquinas virtuales apagadas y la instalación base verificada, tomamo
 ![Captura 11](img/sprint-1/cap11_instantanea_grafica.png)
 
 **Captura 10: Pestaña de instantáneas de `g01-consola` mostrando `instalacion-limpia`**
-![Captura 12](img/sprint-1/cap12_instantaneas_consola.png)
+![Captura 12](img/sprint-1/cap12_instantanea_consola.png)
 
 
 ---
