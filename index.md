@@ -23,6 +23,6 @@ Implementar y administrar dos máquinas virtuales Linux en VirtualBox (`g01-graf
 ## Navegación del proyecto
 
 * 📋 [Plan de trabajo del grupo](plan/plan-de-trabajo.md)
-* 🔍 [Ficha de verificación de versiones](plan/ficha-version.md)
+* 🔍 [Ficha de verificación de versiones](plan/ficha-de-version.md)
 * 🚀 **[Sprint 1 · Montaje de VMs, Red, SSH e Instantáneas](sprint-1.md)**
 * 🔗 [Repositorio oficial en GitHub](https://github.com/JaycobCas/so_proyecto_g01.git)
