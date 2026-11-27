@@ -101,6 +101,10 @@ echo "YD01-WEWS" > ~/codigo_sprint1.txt
 cat ~/codigo_sprint1.txt
 date
 ```
+**Captura 11: Salida del codigo de verificación y date**
+![Captura 14](img/sprint-1/cap13_codigo_grafica.png)
+![Captura 15](img/sprint-1/cap14_codigo_consola.png)
+
 
 ---
 
