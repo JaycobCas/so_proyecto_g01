@@ -117,12 +117,16 @@ date
 | Nicolás | Instaló `g01-grafica` (Kubuntu) y `g01-consola` (Debian) con particionado manual, configuró red (NAT + Solo-anfitrión), SSH y tomó las instantáneas `instalacion-limpia`. | 2 |
 | Alejandro | Verificó herramientas en consola, completó `plan/ficha-version.md` y participó en la sustentación en video. | 2 |
 
-<script src="//cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js"></script>
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/viewerjs@1.11.6/dist/viewer.min.css">
+<script src="//cdn.jsdelivr.net/npm/viewerjs@1.11.6/dist/viewer.min.js"></script>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    mediumZoom('img', {
-      margin: 24,
-      background: 'rgba(0, 0, 0, 0.85)'
+    new Viewer(document.body, {
+      toolbar: true,
+      navbar: false,
+      title: false,
+      zoomRatio: 0.25
     });
   });
 </script>
+
