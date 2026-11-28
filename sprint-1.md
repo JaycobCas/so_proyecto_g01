@@ -65,7 +65,7 @@ explicar por que se debe este fallo en debian
 
 **Captura 7: Prueba de conectividad con `ping` en ambos sentidos (gráfica → consola y consola → gráfica)**
 ![Captura 9](img/sprint-1/cap9_ping_grafica_consola.png)
-
+Aquí son dos máquinas virtuales (g01-grafica y g01-consola) en VirtualBox que hacen ping entre sí en ambos sentidos, con 4 paquetes enviados y recibidos y 0% de pérdida, lo que confirma que tienen conectividad de red entre ellas.
 
 
 
@@ -79,6 +79,7 @@ Establecimos conexión remota mediante el protocolo SSH desde la terminal de la 
 
 **Captura 8: Sesión SSH abierta desde `g01-grafica` mostrando el prompt remoto `nicolas@g01-consola` y `date`**
 ![Captura 10](img/sprint-1/cap10_ssh.png)
+Son dos máquinas virtuales (g01-grafica y g01-consola) en VirtualBox que hacen ping entre sí en ambos sentidos, con 4 paquetes enviados y recibidos y 0% de pérdida, lo que confirma que tienen conectividad de red entre ellas.
 
 ---
 
@@ -92,6 +93,7 @@ Con ambas máquinas virtuales apagadas y la instalación base verificada, tomamo
 **Captura 10: Pestaña de instantáneas de `g01-consola` mostrando `instalacion-limpia`**
 ![Captura 12](img/sprint-1/cap12_instantanea_consola.png)
 
+para capturas 9 y 10: capturas de VirtualBox que muestran que las dos máquinas virtuales (g01-grafica y g01-consola) están apagadas y tienen una instantánea llamada instalacion-limpia
 
 ---
 
@@ -109,7 +111,8 @@ date
 
 ![Captura 14](img/sprint-1/cap13_codigo_grafica.png)
 ![Captura 15](img/sprint-1/cap14_codigo_consola.png)
-
+En la captura se ven las dos máquinas virtuales (g01-grafica a la izquierda y g01-consola a la derecha) haciendo exactamente lo mismo: primero guardaron un código en un archivo de texto llamado codigo_sprint1.txt dentro de la carpeta personal del usuario nicolas, y luego lo revisaron.
+Con cat ~/codigo_sprint1.txt leyeron el archivo y la terminal mostró el contenido, que es el código de verificación YD01-WEWS. Después ejecutaron date, que muestra la fecha y hora del sistema: viernes 27 de noviembre de 2026, a las 16:16 (zona horaria -05).
 
 ---
 
