@@ -120,6 +120,12 @@ Con cat ~/codigo_sprint1.txt leyeron el archivo y la terminal mostró el conteni
 
 ---
 
+## Video del sprint
+
+ video del grupo explicando su participación en el sprint 1: https://youtu.be/wPi52unO8O0
+ 
+---
+
 ## Lo que hizo cada integrante en este sprint
 
 | Integrante | Qué hizo | Commits |
