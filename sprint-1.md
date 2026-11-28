@@ -14,11 +14,12 @@ Instalamos Kubuntu en VirtualBox con particionado manual (`/`, `swap` y `/home`)
 
 **Captura 1: Editor de particiones manual durante la instalación de Kubuntu**
 ![Captura 1](img/sprint-1/cap1_editor_particiones_kubuntu.png)
-
+Aquí se evidencia la partición del disco y a qué se destina cada partición
 
 **Captura 2: Salida de `lsblk`, `df -h` y `cat /etc/fstab` con el prompt `nicolas@g01-grafica` y `date` visible**
 ![Captura 2](img/sprint-1/cap2_salida_comandos_kubuntu.png)
 ![Captura 3](img/sprint-1/cap3_salida_comandos_kubuntu.png)
+Aqui se ven capturas de una terminal Linux que muestran un disco de 25 GB dividido en tres particiones (raíz, swap y /home), con su espacio de uso y el archivo fstab que las monta automáticamente al arrancar.
 
 **Captura 3: Los dos navegadores y los dos editores abiertos en Kubuntu**
 ![Captura 4](img/sprint-1/cap4_navegadores_editores_kubuntu.png)
@@ -42,10 +43,12 @@ Instalamos Debian en modo consola (sin entorno gráfico) en VirtualBox con un di
 
 **Captura 4: Salida de `lsblk`, `df -h` y `cat /etc/fstab` en `g01-consola`.**
 ![Captura 5](img/sprint-1/cap5_salida_comandos_debian.png)
+Aquí la terminal Linux (máquina g01-consola) que muestra un disco de 25 GB con cuatro particiones (/ de 6 GB, /var de 12 GB, swap de 2 GB y /home de 5 GB), su uso de espacio y el archivo fstab que las monta automáticamente al arrancar.
 
 **Captura 5: Las 5 herramientas instaladas (`make`, `rsync`, `curl`, `git`, `wget`) mostrando su versión**
 ![Captura 6](img/sprint-1/cap6_herramientas_debian.png)
 ![Captura 7](img/sprint-1/cap7_herramientas_debian.png)
+aqui la terminal Linux (g01-consola) donde se ejecutan los comandos --version de cinco herramientas instaladas: make 4.4.1, rsync 3.5.0, curl, git 2.47.3 y wget 1.25.0, confirmando que están disponibles en el sistema.
 
 ---
 
@@ -57,7 +60,8 @@ Configuramos dos adaptadores de red en VirtualBox para cada máquina virtual: el
 
 **Captura 6: Salida de `ip a` en `g01-grafica` y `g01-consola` mostrando las direcciones IP de ambas interfaces**
 ![Captura 8](img/sprint-1/cap8_ip_a_grafica_consola.png)
-
+A tener en cuenta: al hacer el ip a en la g01-consola esta no mostraba una ip en el apartado del enp0s8 por lo que toco ponerlo de forma manual 
+explicar por que se debe este fallo en debian
 
 **Captura 7: Prueba de conectividad con `ping` en ambos sentidos (gráfica → consola y consola → gráfica)**
 ![Captura 9](img/sprint-1/cap9_ping_grafica_consola.png)
