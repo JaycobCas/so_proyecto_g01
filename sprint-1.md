@@ -61,7 +61,7 @@ Configuramos dos adaptadores de red en VirtualBox para cada máquina virtual: el
 **Captura 6: Salida de `ip a` en `g01-grafica` y `g01-consola` mostrando las direcciones IP de ambas interfaces**
 ![Captura 8](img/sprint-1/cap8_ip_a_grafica_consola.png)
 A tener en cuenta: al hacer el ip a en la g01-consola esta no mostraba una ip en el apartado del enp0s8 por lo que toco ponerlo de forma manual 
-explicar por que se debe este fallo en debian
+esto debe a que Debian no configura automáticamente las interfaces adicionales. Durante la instalación, Debian solo configura la primera tarjeta de red (normalmente enp0s3, la que sale a internet por NAT) y la deja en DHCP dentro de /etc/network/interfaces. Si la VM tiene una segunda tarjeta (enp0s8, para la red interna o solo-anfitrión que usas para el ping entre VMs), el sistema la detecta, pero no hay ninguna configuración escrita para ella. Por eso aparece en ip a, a veces incluso en estado DOWN, pero sin dirección IP.
 
 **Captura 7: Prueba de conectividad con `ping` en ambos sentidos (gráfica → consola y consola → gráfica)**
 ![Captura 9](img/sprint-1/cap9_ping_grafica_consola.png)
