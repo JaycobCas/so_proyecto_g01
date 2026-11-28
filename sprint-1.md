@@ -19,6 +19,7 @@ Aquí se evidencia la partición del disco y a qué se destina cada partición
 **Captura 2: Salida de `lsblk`, `df -h` y `cat /etc/fstab` con el prompt `nicolas@g01-grafica` y `date` visible**
 ![Captura 2](img/sprint-1/cap2_salida_comandos_kubuntu.png)
 ![Captura 3](img/sprint-1/cap3_salida_comandos_kubuntu.png)
+
 Aqui se ven capturas de una terminal Linux que muestran un disco de 25 GB dividido en tres particiones (raíz, swap y /home), con su espacio de uso y el archivo fstab que las monta automáticamente al arrancar.
 
 **Captura 3: Los dos navegadores y los dos editores abiertos en Kubuntu**
@@ -43,6 +44,7 @@ Instalamos Debian en modo consola (sin entorno gráfico) en VirtualBox con un di
 
 **Captura 4: Salida de `lsblk`, `df -h` y `cat /etc/fstab` en `g01-consola`.**
 ![Captura 5](img/sprint-1/cap5_salida_comandos_debian.png)
+
 Aquí la terminal Linux (máquina g01-consola) que muestra un disco de 25 GB con cuatro particiones (/ de 6 GB, /var de 12 GB, swap de 2 GB y /home de 5 GB), su uso de espacio y el archivo fstab que las monta automáticamente al arrancar.
 
 **Captura 5: Las 5 herramientas instaladas (`make`, `rsync`, `curl`, `git`, `wget`) mostrando su versión**
@@ -79,6 +81,7 @@ Establecimos conexión remota mediante el protocolo SSH desde la terminal de la 
 
 **Captura 8: Sesión SSH abierta desde `g01-grafica` mostrando el prompt remoto `nicolas@g01-consola` y `date`**
 ![Captura 10](img/sprint-1/cap10_ssh.png)
+
 Son dos máquinas virtuales (g01-grafica y g01-consola) en VirtualBox que hacen ping entre sí en ambos sentidos, con 4 paquetes enviados y recibidos y 0% de pérdida, lo que confirma que tienen conectividad de red entre ellas.
 
 ---
@@ -111,6 +114,7 @@ date
 
 ![Captura 14](img/sprint-1/cap13_codigo_grafica.png)
 ![Captura 15](img/sprint-1/cap14_codigo_consola.png)
+
 En la captura se ven las dos máquinas virtuales (g01-grafica a la izquierda y g01-consola a la derecha) haciendo exactamente lo mismo: primero guardaron un código en un archivo de texto llamado codigo_sprint1.txt dentro de la carpeta personal del usuario nicolas, y luego lo revisaron.
 Con cat ~/codigo_sprint1.txt leyeron el archivo y la terminal mostró el contenido, que es el código de verificación YD01-WEWS. Después ejecutaron date, que muestra la fecha y hora del sistema: viernes 27 de noviembre de 2026, a las 16:16 (zona horaria -05).
 
